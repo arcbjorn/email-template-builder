@@ -1,0 +1,17 @@
+{
+    "name": "arcbjorn/email-template-builder",
+    "description": "Drag-and-drop email template builder with MJML support and inline CSS",
+    "type": "project",
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "6.0.*",
+        "twig/twig": "^2.10",
+        "tijsverkoyen/css-to-inline-styles": "^2.2",
+        "soundasleep/html2text": "^0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
